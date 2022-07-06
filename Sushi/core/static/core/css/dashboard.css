@@ -1,0 +1,290 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:300,400';
+
+
+body {
+	font-family: 'Raleway:300', sans-serif
+}
+
+.admin-sidenav {
+	width: 150px;
+	height: auto;
+	margin-left: 0px;
+	margin-top: 250px;
+}
+
+.admin-sidenav a {
+	text-decoration: none;
+}
+
+.admin-sidenav li {
+	text-align: justify;
+	padding: .5rem;
+	padding-left: 1rem;
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+	background-color: #000;
+	border: 1px solid #333;
+	margin-top: 30px;
+}
+
+.admin-sidenav li a {
+	color: #fff;
+}
+
+.admin-sidenav li a:active {
+	border-color: #02d3f5;
+}
+
+.admin-sidenav li:hover {
+	border-radius: 0 .5rem .5rem 0;
+	border-color: #02d3f5;
+	-webkit-transform: translate(30px, 0px);
+	transform: translate(30px, 0px);
+	background: -webkit-linear-gradient(left, #ffffff, #002340);
+	background: linear-gradient(to right, #ffffff, #002340);
+}
+
+.admin-sidenav li:active {
+	border-color: #02d3f5;
+}
+
+.content-title {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.titulopanel {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	margin-right: 90px;
+	margin-top: 60px;
+}
+.seccionespanel{
+
+	font-family: 'Updock', cursive;
+	font-size: 60px;
+	margin-right: 90px;
+}
+.menusec{
+	font-family: 'Updock', cursive;	
+	font-size: 40px;
+}
+
+.side {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+
+}
+
+.contenedoradmin {
+	border-color: black;
+
+}
+th{
+	text-align: center;
+}
+td{
+	text-align: center;
+}
+
+body {
+
+	background: linear-gradient(to right, #ffffff, #002340);
+	opacity: 1;
+}
+
+/*footer*/
+.col_white_amrc {
+	color: #FFF;
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+	color: white;
+	min-height: 150px;
+	padding: 10px 0px 25px 0px;
+	margin-top: 45px;
+}
+
+.pt2 {
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+
+footer p {
+	font-size: 13px;
+	color: #CCC;
+	padding-bottom: 0px;
+	margin-bottom: 8px;
+}
+
+.mb10 {
+	padding-bottom: 15px;
+}
+
+.footer_ul_amrc {
+	margin: 0px;
+	list-style-type: none;
+	font-size: 14px;
+	padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_amrc li {
+	padding: 0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a {
+	color: #CCC;
+}
+
+.footer_ul_amrc li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.fleft {
+	float: left;
+}
+
+.padding-right {
+	padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+}
+
+.footer_ul2_amrc li p {
+	display: table;
+}
+
+.footer_ul2_amrc li a:hover {
+	text-decoration: none;
+}
+
+.footer_ul2_amrc li i {
+	margin-top: 5px;
+}
+
+.bottom_border {
+	border-bottom: 1px solid #323f45;
+	padding-bottom: 20px;
+}
+
+.foote_bottom_ul_amrc {
+	list-style-type: none;
+	padding: 0px;
+	display: table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+	display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+	color: #999;
+	margin: 0 12px;
+}
+
+.social_footer_ul {
+	display: table;
+	margin: 15px auto 0 auto;
+	list-style-type: none;
+}
+
+.social_footer_ul li {
+	padding-left: 20px;
+	padding-top: 10px;
+	float: left;
+}
+
+.social_footer_ul li a {
+	color: #CCC;
+	border: 1px solid #CCC;
+	padding: 8px;
+	border-radius: 50%;
+}
+
+.social_footer_ul li i {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+
+
+
+
+.columna {
+	float: left;
+	width: 50%;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+
+.fila::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+img {
+	/* Para que sea responsiva */
+	width: 100%;
+
+}
+.ventas{
+	margin-left: 200px;
+}
+.mod{
+	margin-left: 18px;
+	width: 20px;
+	
+	
+}
+.del{
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+}
+.stock{
+	text-align: center;
+	width: 30px;
+}
+.usuarios{
+	text-align: center;
+	font-size:15px;
+	font-weight: bold;
+}
+.bodega{
+	font-size: 15px;
+}
+
+.titulocrear{
+	margin-top:60px !important;
+}
+.inventariocrear{
+	margin-top:60px !important;
+	margin-left: 700px !important;
+}
+.btntabla{
+	background-color: black !important;
+	color: white !important;
+}
+.fottervents{
+	margin-top: 60px !important; 
+}
+
+
+
+
